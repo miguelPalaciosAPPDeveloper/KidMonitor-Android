@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/drawable_dialog">
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/ProgressWheel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        wheel:matProg_barColor="@color/colorAccent"
+        wheel:matProg_progressIndeterminate="true"/>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/textViewTituloProgress"
+        android:textSize="20dp"
+        android:textColor="@color/md_secondary_text_icons"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

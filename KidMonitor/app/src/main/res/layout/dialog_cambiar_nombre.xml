@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_dialog"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nuevo_nombre"
+        android:textSize="20dp"
+        android:textColor="@color/md_secondary_text_icons"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextnNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/md_secondary_text_icons"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/dim_foreground_disabled_material_dark"
+        android:hint="@string/txt_hint_editar_Nombre">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_cancelar"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"
+            android:id="@+id/buttonCancelarEdit" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_Aceptar"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"
+            android:id="@+id/buttonAceptarEdit" />
+    </LinearLayout>
+</LinearLayout>

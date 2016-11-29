@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/drawable_dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp"
+        android:text="@string/dialog_titulo_conectar"
+        android:textColor="@color/md_secondary_text_icons"
+        android:id="@+id/textViewConectar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_cancelar"
+            android:id="@+id/buttonCancelarConectar"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_ConectarConect"
+            android:id="@+id/buttonConectarConectar"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"/>
+    </LinearLayout>
+</LinearLayout>

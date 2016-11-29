@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">KidMonitor</string>
+
+    <string name="action_acerca">Acerca de</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="text_Carga">Cargando . . .</string>
+    <string name="ble_not_supported">BLE no es soportado</string>
+    <string name="label_device_address">Direccion MAC:</string>
+    <string name="label_state">Estado:</string>
+    <string name="connected">Conectado</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="error_bluetooth_not_supported">Bluetooth no soportado.</string>
+    <string name="unknown_device">Dispositivo Desconocido</string>
+    <string name="unknown_characteristic">Caracteristica Desconocida</string>
+    <string name="unknown_service">Servicio Desconocido</string>
+    <string name="bluetooth_no_Activado">No se activó Bluetooth</string>
+    <string name="no_hay_dispositivos">No hay dispositivos guardados</string>
+    <string name="titulo_Device_scan">Busqueda</string>
+    <string name="titulo_escribir_nfc">Escribir tag NFC</string>
+    <string name="titulo_leer_nfc">Leer tag NFC</string>
+    <string name="txt_toast_clave_incorreta">Clave incorrecta</string>
+    <string name="txt_toast_dispositivo_guardado">Dispositivo guardado</string>
+    <string name="txt_toast_dispositivo_no_guardado">No se pudo guardar el dispositivo</string>
+    <string name="titulo_device_saved">Dispositivos</string>
+    <string name="borrar_dispositivo">Borrar dispositivo</string>
+    <string name="conectar_dispositivo">Conectar con dispositivo</string>
+    <string name="editar_nombre">Editar nombre</string>
+    <string name="nombre_cambiado">Nombre cambiado</string>
+    <string name="nombre_no_cambiado">No se pudo cambiar el nombre</string>
+    <string name="dispositivo_borrado">Dispositivo borrado</string>
+    <string name="dispositivo_no_borrado">No se pudo borrar el dispositivo</string>
+    <string name="sin_tecnologia_nfc">Lo sentimos, no cuentas con NFC</string>
+    <string name="escribir_datos_nfc">Escribir datos en tag NFC</string>
+    <string name="leer_datos_nfc">Leer datos en tag NFC</string>
+    <string name="dialog_fuera_alcance">Dispositivo fuera del alcance</string>
+    <string name="dialog_dispositivo_verificado">El dispositivo ya existe, busque en dispositivos guardados</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Conectar</string>
+    <string name="menu_disconnect">Desconectar</string>
+    <string name="menu_scan">Buscar</string>
+    <string name="menu_stop">Detener</string>
+    <string name="button">Enviar</string>
+    <string name="text_ValorRSSI">Valor RSSI:</string>
+    <string name="text_Distancia">Seleccione una distancia </string>
+    <string name="text_Toggle">Opcion:</string>
+    <string name="text_Distanacia">No establecido</string>
+    <string name="action_salir">Salir</string>
+    <string name="title_activity_device_save">DeviceSaveActivity</string>
+    <string name="title_activity_device_control">DeviceControlActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_estadoDispositivo">Fuera del alcance</string>
+
+    <!-- XML strings-->
+    <string name="derechos">Copyright (c) 2015 Miguel Palacios. All rights reserved.</string>
+    <string name="txt_boton_guardados">Seleccionar dispositivo \nguardado</string>
+    <string name="txt_boton_nuevos">Buscar nuevos \ndispositivos</string>
+    <string name="principal_selecciona_opcion">SELECCIONE UNA OPCIÓN</string>
+    <string name="nuevo_nombre">Escriba el nuevo nombre:</string>
+    <string name="txt_boton_cancelar">CANCELAR</string>
+    <string name="txt_boton_Aceptar">ACEPTAR</string>
+    <string name="txt_hint_editar_Nombre">Nombre</string>
+    <string name="dialog_selecciona_opcion">Seleccione una opción</string>
+    <string name="progressDialog_buscando">Buscando\ndispositivos. . . .</string>
+    <string name="dialog_ingresar_clave">Para continuar ingresa la clave del dispositivo seleccionado:</string>
+    <string name="txt_hint_clave">Clave</string>
+    <string name="txt_checkBox_guardar">Guardar\ndispositivo</string>
+    <string name="txt_chekBox_mostrar">Mostrar\nclave</string>
+    <string name="txt_boton_ConectarConect">CONECTAR</string>
+    <string name="txt_boton_DesconectarConect">DESCONECTAR</string>
+    <string name="txt_boton_opciones_nfc">OPCIONES DE NFC</string>
+    <string name="dialog_titulo_borrar">¿Desea borrar este dispositivo?</string>
+    <string name="dialog_titulo_conectar">¿Desea conectarse con este dispositivo?</string>
+    <string name="progress_dialog_conectado">Conectando\ndispositivo. . . .</string>
+    <string name="title_activity_activity_opciones_nfc">Activity_opciones_nfc</string>
+    <string name="txt_boton_escribir_nfc">ESCRIBIR TAG</string>
+    <string name="txt_boton_leer_nfc">LEER TAG</string>
+    <string name="dialog_titulo_nfc">¿Que desea hacer con NFC?</string>
+</resources>

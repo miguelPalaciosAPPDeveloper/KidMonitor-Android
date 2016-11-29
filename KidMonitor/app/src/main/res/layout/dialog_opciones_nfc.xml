@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/drawable_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:text="@string/dialog_titulo_nfc"
+            android:textColor="@color/md_secondary_text_icons"
+            android:id="@+id/textView6" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:id="@+id/imageButtonSalir"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_escribir_nfc"
+            android:id="@+id/buttonEscribirNFC"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"/>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_leer_nfc"
+            android:id="@+id/buttonLeerNFC"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"/>
+    </LinearLayout>
+</LinearLayout>

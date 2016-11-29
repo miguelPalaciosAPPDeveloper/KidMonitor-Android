@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- google's material design colours from
+    http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->
+    <!--reds-->
+    <color name="colorPrimary">#ffc400</color>
+    <color name="colorPrimaryDark">#ffd740</color>
+    <color name="colorAccent">#ffd740</color>
+    <color name="md_amber_A400">#ffc400</color>
+    <color name="md_amber_400">#ffca28</color>
+    <color name="gris">#ababab</color>
+    <color name="gris_oscuro">#4a4a4a</color>
+    <color name="transparente">#00000000</color>
+    <color name="md_disabled_hint_text">#4c000000</color>
+    <color name="md_statusbar_translucent">#4000</color>
+    <color name="md_text_white">#ffffffff</color>
+    <color name="md_secondary_text_icons">#8a000000</color>
+    <color name="md_divider">#1f000000</color>
+
+
+</resources>

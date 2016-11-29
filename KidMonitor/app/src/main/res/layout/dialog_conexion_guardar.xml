@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_dialog"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/dialog_ingresar_clave"
+        android:textSize="20dp"
+        android:textColor="@color/md_secondary_text_icons"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextClaveMAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/md_secondary_text_icons"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/dim_foreground_disabled_material_dark"
+        android:hint="@string/txt_hint_clave">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_checkBox_guardar"
+            android:textColor="@color/md_secondary_text_icons"
+            android:id="@+id/checkBoxGuardar"
+            android:backgroundTint="@color/md_secondary_text_icons"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_chekBox_mostrar"
+            android:backgroundTint="@color/md_secondary_text_icons"
+            android:textColor="@color/md_secondary_text_icons"
+            android:id="@+id/checkBoxMostrar"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_cancelar"
+            android:id="@+id/buttonCancelar"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/txt_boton_ConectarConect"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@color/md_secondary_text_icons"
+            android:id="@+id/buttonConectar" />
+    </LinearLayout>
+</LinearLayout>

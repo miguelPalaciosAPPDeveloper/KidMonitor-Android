@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.miguelpalacios.app_blefinal.Activitys.ActivityPrincipal">
+    <item android:id="@+id/action_acerca"
+        android:title="@string/action_acerca"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:id="@+id/action_salir"
+        android:title="@string/action_salir"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+</menu>
